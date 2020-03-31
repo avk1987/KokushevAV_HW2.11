@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8A4F7FCE24333BF800C7EBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F7FCD24333BF800C7EBF4 /* AppDelegate.swift */; };
 		8A4F7FD024333BF800C7EBF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F7FCF24333BF800C7EBF4 /* SceneDelegate.swift */; };
-		8A4F7FD224333BF800C7EBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F7FD124333BF800C7EBF4 /* ViewController.swift */; };
 		8A4F7FD524333BF800C7EBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F7FD324333BF800C7EBF4 /* Main.storyboard */; };
 		8A4F7FD724333BFD00C7EBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F7FD624333BFD00C7EBF4 /* Assets.xcassets */; };
 		8A4F7FDA24333BFD00C7EBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F7FD824333BFD00C7EBF4 /* LaunchScreen.storyboard */; };
+		8AC7F52C2433C7A600E2CA03 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F52B2433C7A600E2CA03 /* Photo.swift */; };
+		8AC7F52F2433CA3500E2CA03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F52E2433CA3500E2CA03 /* NetworkManager.swift */; };
+		8AC7F5332433D6D600E2CA03 /* MainScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */; };
+		8AC7F5352433D99A00E2CA03 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */; };
+		D771A77ED2A07F4C7261D79E /* Pods_KokushevAV_HW2_11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950157CAB59802C82F67C297 /* Pods_KokushevAV_HW2_11.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FF4F4ED0ED4118911D5CA2D /* Pods-KokushevAV_HW2.11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokushevAV_HW2.11.release.xcconfig"; path = "Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11.release.xcconfig"; sourceTree = "<group>"; };
 		8A4F7FCA24333BF800C7EBF4 /* KokushevAV_HW2.11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KokushevAV_HW2.11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4F7FCD24333BF800C7EBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A4F7FCF24333BF800C7EBF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A4F7FD124333BF800C7EBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A4F7FD424333BF800C7EBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4F7FD624333BFD00C7EBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4F7FD924333BFD00C7EBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4F7FDB24333BFD00C7EBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC7F52B2433C7A600E2CA03 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8AC7F52E2433CA3500E2CA03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewController.swift; sourceTree = "<group>"; };
+		8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		950157CAB59802C82F67C297 /* Pods_KokushevAV_HW2_11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KokushevAV_HW2_11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B1D1BB3B7326148C719386 /* Pods-KokushevAV_HW2.11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokushevAV_HW2.11.debug.xcconfig"; path = "Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D771A77ED2A07F4C7261D79E /* Pods_KokushevAV_HW2_11.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				8A4F7FCC24333BF800C7EBF4 /* KokushevAV_HW2.11 */,
 				8A4F7FCB24333BF800C7EBF4 /* Products */,
+				B5563B32803F587953543148 /* Pods */,
+				D484DF49D7EBB444A9D08C0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,67 @@
 		8A4F7FCC24333BF800C7EBF4 /* KokushevAV_HW2.11 */ = {
 			isa = PBXGroup;
 			children = (
-				8A4F7FCD24333BF800C7EBF4 /* AppDelegate.swift */,
-				8A4F7FCF24333BF800C7EBF4 /* SceneDelegate.swift */,
-				8A4F7FD124333BF800C7EBF4 /* ViewController.swift */,
+				8AC7F5302433D66500E2CA03 /* Controllers */,
+				8AC7F52D2433CA2300E2CA03 /* Managers */,
+				8AC7F52A2433C78F00E2CA03 /* Models */,
 				8A4F7FD324333BF800C7EBF4 /* Main.storyboard */,
-				8A4F7FD624333BFD00C7EBF4 /* Assets.xcassets */,
-				8A4F7FD824333BFD00C7EBF4 /* LaunchScreen.storyboard */,
 				8A4F7FDB24333BFD00C7EBF4 /* Info.plist */,
+				8AC7F5312433D68200E2CA03 /* SupportingFiles */,
 			);
 			path = KokushevAV_HW2.11;
+			sourceTree = "<group>";
+		};
+		8AC7F52A2433C78F00E2CA03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7F52B2433C7A600E2CA03 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AC7F52D2433CA2300E2CA03 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7F52E2433CA3500E2CA03 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8AC7F5302433D66500E2CA03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */,
+				8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8AC7F5312433D68200E2CA03 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F7FD824333BFD00C7EBF4 /* LaunchScreen.storyboard */,
+				8A4F7FD624333BFD00C7EBF4 /* Assets.xcassets */,
+				8A4F7FCD24333BF800C7EBF4 /* AppDelegate.swift */,
+				8A4F7FCF24333BF800C7EBF4 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B5563B32803F587953543148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2B1D1BB3B7326148C719386 /* Pods-KokushevAV_HW2.11.debug.xcconfig */,
+				5FF4F4ED0ED4118911D5CA2D /* Pods-KokushevAV_HW2.11.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D484DF49D7EBB444A9D08C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				950157CAB59802C82F67C297 /* Pods_KokushevAV_HW2_11.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A4F7FDE24333BFD00C7EBF4 /* Build configuration list for PBXNativeTarget "KokushevAV_HW2.11" */;
 			buildPhases = (
+				4E671D36ADC13901F8ABFB13 /* [CP] Check Pods Manifest.lock */,
 				8A4F7FC624333BF800C7EBF4 /* Sources */,
 				8A4F7FC724333BF800C7EBF4 /* Frameworks */,
 				8A4F7FC824333BF800C7EBF4 /* Resources */,
+				9EA020F851F76422258EAB64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +200,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E671D36ADC13901F8ABFB13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KokushevAV_HW2.11-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA020F851F76422258EAB64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A4F7FC624333BF800C7EBF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4F7FD224333BF800C7EBF4 /* ViewController.swift in Sources */,
+				8AC7F52C2433C7A600E2CA03 /* Photo.swift in Sources */,
+				8AC7F5332433D6D600E2CA03 /* MainScreenTableViewController.swift in Sources */,
+				8AC7F52F2433CA3500E2CA03 /* NetworkManager.swift in Sources */,
 				8A4F7FCE24333BF800C7EBF4 /* AppDelegate.swift in Sources */,
+				8AC7F5352433D99A00E2CA03 /* PhotoCell.swift in Sources */,
 				8A4F7FD024333BF800C7EBF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		8A4F7FDF24333BFD00C7EBF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B1D1BB3B7326148C719386 /* Pods-KokushevAV_HW2.11.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		8A4F7FE024333BFD00C7EBF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF4F4ED0ED4118911D5CA2D /* Pods-KokushevAV_HW2.11.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
