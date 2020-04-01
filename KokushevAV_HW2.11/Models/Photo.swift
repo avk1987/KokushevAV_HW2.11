@@ -7,9 +7,26 @@
 //
 
 struct Photo {
-    var id: Int
-    var sol: Int
-    var imgSrc: String
-    var earthDate: String
-    var rover: String
+    var id: Int?
+    var sol: Int?
+    var imgSrc: String?
+    var earthDate: String?
+    var rover: Rover?
+    
+    init(dict: [String: Any]) {
+        id = dict["id"] as? Int
+        sol = dict["sol"] as? Int
+        imgSrc = dict["img_src"] as? String
+        earthDate = dict["earth_date"] as? String
+        rover = Rover(roverDict: dict["rover"] as? [String: Any] ?? ["":""])
+    }
+}
+
+struct Rover {
+    var name: String?
+
+    init(roverDict: [String: Any]) {
+        name = roverDict["name"] as? String
+    }
+    
 }

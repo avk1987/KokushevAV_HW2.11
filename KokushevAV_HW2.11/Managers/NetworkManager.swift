@@ -30,12 +30,7 @@ class NetworkManager {
                     guard let photos = jsonData["photos"] as? [[String: Any]] else { return }
                     
                     for photo in photos {
-                        let rover = photo["rover"] as! [String: Any]
-                        loadedPhotos.append(Photo(id: photo["id"] as! Int,
-                                                  sol: photo["sol"] as! Int,
-                                                  imgSrc: photo["img_src"] as! String,
-                                                  earthDate: photo["earth_date"] as! String,
-                                                  rover: rover["name"] as! String))
+                        loadedPhotos.append(Photo(dict: photo))
                     }
                     
                     completionHandler(loadedPhotos)
@@ -46,7 +41,7 @@ class NetworkManager {
         }
     }
     
-    func loadPhoto(url: String, completionHandler: @escaping (UIImage) -> Void) {
+    func loadPhoto(url: String, completionHandler: @escaping (Data) -> Void) {
         AF.request(url)
             .validate()
             .response { response in
@@ -54,8 +49,7 @@ class NetworkManager {
                 switch response.result {
                 case.success(let responseData):
                     guard let imgData = responseData else { return }
-                    guard let img = UIImage(data: imgData) else { return }
-                    completionHandler(img)
+                    completionHandler(imgData)
                     
                 case.failure(let error):
                     print(error)

@@ -16,6 +16,7 @@
 		8AC7F52F2433CA3500E2CA03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F52E2433CA3500E2CA03 /* NetworkManager.swift */; };
 		8AC7F5332433D6D600E2CA03 /* MainScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */; };
 		8AC7F5352433D99A00E2CA03 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */; };
+		8AC7F5372434F17800E2CA03 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7F5362434F17800E2CA03 /* PhotoViewController.swift */; };
 		D771A77ED2A07F4C7261D79E /* Pods_KokushevAV_HW2_11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950157CAB59802C82F67C297 /* Pods_KokushevAV_HW2_11.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		8AC7F52E2433CA3500E2CA03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewController.swift; sourceTree = "<group>"; };
 		8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		8AC7F5362434F17800E2CA03 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		950157CAB59802C82F67C297 /* Pods_KokushevAV_HW2_11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KokushevAV_HW2_11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B1D1BB3B7326148C719386 /* Pods-KokushevAV_HW2.11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokushevAV_HW2.11.debug.xcconfig"; path = "Target Support Files/Pods-KokushevAV_HW2.11/Pods-KokushevAV_HW2.11.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +102,7 @@
 			children = (
 				8AC7F5322433D6D600E2CA03 /* MainScreenTableViewController.swift */,
 				8AC7F5342433D99A00E2CA03 /* PhotoCell.swift */,
+				8AC7F5362434F17800E2CA03 /* PhotoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				8AC7F5332433D6D600E2CA03 /* MainScreenTableViewController.swift in Sources */,
 				8AC7F52F2433CA3500E2CA03 /* NetworkManager.swift in Sources */,
 				8A4F7FCE24333BF800C7EBF4 /* AppDelegate.swift in Sources */,
+				8AC7F5372434F17800E2CA03 /* PhotoViewController.swift in Sources */,
 				8AC7F5352433D99A00E2CA03 /* PhotoCell.swift in Sources */,
 				8A4F7FD024333BF800C7EBF4 /* SceneDelegate.swift in Sources */,
 			);
